@@ -1,0 +1,32 @@
+
+/* Navigation Menu Selector, Declaration for Background */
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+/* Navigation Anchor Selector, Declaration for Text */
+nav a {
+    color: white;
+    display: block;
+    padding: 20px
+}
+
+/* Heading 1 Selector, Declaration for Foreground */
+h1 {
+    color: darkblue;
+}
+
+/* Image elements Selector, Declaration for format */
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+/* Paragraph elements Selector, Declaration for Text */
+p {
+    padding: 10x;
+}
