@@ -1,20 +1,34 @@
 
+* {
+    margin: 5px 0;
+    padding: 0;
+}
+
 /* Navigation Menu Selector, Declaration for Background */
 nav {
-    background-color: darkblue;
+    background-color: rgb(34 68 119 / 1);
     padding: 10px;
 }
 
 /* Navigation Anchor Selector, Declaration for Text */
 nav a {
     color: white;
-    display: block;
-    padding: 20px
+    padding: 10px
+}
+
+main {
+    width: 800px;
+    margin: 10px;
+}
+
+main img {
+    width: 150px;
+    height: auto;
 }
 
 /* Heading 1 Selector, Declaration for Foreground */
 h1 {
-    color: darkblue;
+    color: rgb(34 68 119 / 1);
 }
 
 /* Image elements Selector, Declaration for format */
@@ -28,5 +42,25 @@ img {
 
 /* Paragraph elements Selector, Declaration for Text */
 p {
-    padding: 10x;
+    padding: 0;
+}
+
+aside {
+    width: 60%;
+    margin: 10px;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 10px;
+    background-color: rgb(34 68 119 / 1);
+    color: white;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin: 10px;
+    border-top: 1px solid gray;
+    text-align: center;
 }
