@@ -1,0 +1,57 @@
+/* This universal CSS Rule prevents auto-settings from the browser, giving me more specific control. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(200, 200, 210, 1);
+    border: 1px solid rgb(0 0 0 10%);
+    font-size: 0.9rem;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+p {
+    padding: 10px;
+}
+
+ul {
+    margin: 10px 20px;
+}
+
+footer {
+    font-size: 1rem;
+}
+
