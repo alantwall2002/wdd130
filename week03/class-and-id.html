@@ -22,11 +22,11 @@
         <pre><code class="html">&lt;div class="box"&gt; ... &lt;/div&gt;</code></pre>
         and the CSS selector is (note the dot notation)
         <pre><code class="css">.box {
-  margin: 20px 0;
-  border: 1px solid rgb(0 0 0 / 10%);
-  padding: 10px;
-  background-color: #ddd; 
-}</code></pre>
+            margin: 20px 0;
+            border: 1px solid rgb(0 0 0 / 10%);
+            padding: 10px;
+            background-color: #ddd; 
+        }</code></pre>
     </div>
 
     <div class="box highlight">
@@ -39,7 +39,8 @@
   border-radius: 25px;
   padding: 25px;
 }</code></pre>
-<p>Some declarations (<code>background-color</code> and <code>padding</code>, from "box" are overwritten by the same declarations in "highlight" becuase highlight appears after box in the CSS cascade.</p>
+        <p>Some declarations <code>background-color</code> and <code>padding</code>, from "box" are overwritten by the
+            same declarations in "highlight" becuase highlight appears after box in the CSS cascade.</p>
     </div>
 
     <div id="note" class="box">
@@ -53,8 +54,12 @@
 }</code></pre>
     </div>
 
+    <!-- I'm supposed to be getting a warning about the duplicate ID attribute. ???-->
     <div id="note">
         <p>Testing the <code>note</code> ID.</p>
+    </div>
+    <div id="note">
+        <p>Attempt to add a second <code>note</code> ID.</p>
     </div>
 
     <section id="best-practice">
