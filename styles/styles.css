@@ -1,7 +1,11 @@
 
 * {
-    margin: 5px 0;
+    margin: 0;
     padding: 0;
+}
+
+:root {
+    --vgap-standard: 10px 0;
 }
 
 /* Navigation Menu Selector, Declaration for Background */
@@ -13,50 +17,65 @@ nav {
 /* Navigation Anchor Selector, Declaration for Text */
 nav a {
     color: white;
-    padding: 10px
+    padding: 10px;
+    /* margin: var(--margin-standard); */
+    border: 1px solid white;
 }
 
 main {
-    width: 800px;
-    margin: 10px;
+    width: 600px;
+    margin: 20px;
+    border: 1px solid black;
+    /* margin: var(--margin-standard); */
 }
 
 main img {
     width: 150px;
     height: auto;
+    padding: 2px;
+    border: 1px solid black;
+    margin: var(--vgap-standard);
+    box-shadow: 0 0 20px black;
 }
 
 /* Heading 1 Selector, Declaration for Foreground */
 h1 {
+    margin: var(--vgap-standard);
     color: rgb(34 68 119 / 1);
+    background-color: yellow;
 }
 
-/* Image elements Selector, Declaration for format */
+/* Image elements Selector, Declaration for format
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
+
+    margin: var(--margin-standard);
+} */
 
 /* Paragraph elements Selector, Declaration for Text */
 p {
-    padding: 0;
+    margin: var(--vgap-standard);
+    background-color: red;
 }
 
 aside {
-    width: 60%;
-    margin: 10px;
+    box-sizing: border-box;
+    width: 440;
+    margin: 0 100px;
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 10px;
+    padding: var(--vgap-standard);
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(34 68 119 / 1);
     color: white;
 }
 
 aside img {
+    float: right;
     width: 200px;
     height: auto;
+    /* margin: var(--vgap-standard); */
 }
 
 footer {
