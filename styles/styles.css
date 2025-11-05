@@ -2,11 +2,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-    --vgap-standard: 10px 0;
+    --vgap-standard: 10px;
     --byu-blue: rgb(34 68 119 / 1);
+    --light-blue: rgb(189 214 230 / 1);
 }
 
 /* Navigation Menu Selector, Declaration for Background */
@@ -19,29 +21,28 @@ nav {
 nav a {
     color: white;
     padding: 10px;
-    /* margin: var(--margin-standard); */
-    /* border: 1px solid white; */
 }
 
 main {
     width: 600px;
-    margin: 20px;
-    /* border: 1px solid black; */
-    /* margin: var(--margin-standard); */
+    margin: var(--vgap-standard) 1rem;
+    overflow: hidden;
 }
 
 main img {
+    float: right;
+    overflow: hidden;
     width: 150px;
     height: auto;
     padding: 2px;
     border: 1px solid black;
-    margin: var(--vgap-standard);
+    margin: var(--vgap-standard) 1rem;
     box-shadow: 0 0 20px black;
 }
 
 /* Heading 1 Selector, Declaration for Foreground */
 h1 {
-    margin: var(--vgap-standard);
+    margin: var(--vgap-standard) 1rem;
     color: var(--byu-blue);
     /* background-color: yellow; */
 }
@@ -56,28 +57,34 @@ img {
 
 /* Paragraph elements Selector, Declaration for Text */
 p {
-    margin: var(--vgap-standard);
+    margin: var(--vgap-standard) 1rem;
     /* background-color: red; */
 }
 
 aside {
-    box-sizing: border-box;
+    position: relative;
     width: 440px;
-    margin: 0 100px;
+    /* margin: 0 100px; */
     border: 1px solid rgb(0 0 0 / 0.2);
-    padding: var(--vgap-standard);
+    /* padding-top: var(--vgap-standard);
+    padding-bottom: var(--vgap-standard);
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px; */
     background-color: var(--byu-blue);
-    color: white;
+    color: var(--light-blue);
     overflow: hidden;
 }
 
 aside img {
-    float: right;
     width: 200px;
     height: auto;
-    margin: var(--vgap-standard);
+    margin: var(--vgap-standard) ;
+}
+
+aside h2 {
+    top: 10px;
+    left: 10px;
+    color: black;
 }
 
 footer {
@@ -85,3 +92,13 @@ footer {
     border-top: 1px solid gray;
     text-align: center;
 }
+
+/* Class Selectors */
+.box {
+    margin: var(--vgap-standard) 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: var(--byu-blue);
+    color: var(--light-blue);
+}
+
