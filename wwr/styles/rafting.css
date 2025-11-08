@@ -1,0 +1,97 @@
+:root {
+    --teal: rgb(29 169 170 / 1);
+    --blue: rgb(55 114 176 / 1);
+    --light-blue: rgb(155 185 225 / 1);
+    --brown: rgb(49 37 21 / 1);
+    --brown-transparent: rgb(49 37 21 / 0.85);
+    --light-brown: rgb(195 171 146 / 1);
+    --font: Aptos, Arial, sans-serif;
+}
+
+* {
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* background-color: var(--light-brown); */
+    color: var(--brown);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: var(--light-brown);
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    padding: 16px;
+    background-color: var(--brown-transparent);
+}
+
+h2 {
+    display: block;
+    background-color: var(--brown);
+    padding: 8px;
+}
+
+nav, p, section, article {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+nav, p, article {
+    padding: 8px;
+}
+
+article {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: var(--brown-transparent);
+    color: var(--light-brown);
+    font-size: 0.75rem
+}
+
+img {
+    border: 1px solid rgb(0 0 0 / 0.2);
+}
+
+/* Class Styles */
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia a img {
+    border: 0;
+    width: 40px;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 120px;
+    margin: 5px;
+}
+
+
