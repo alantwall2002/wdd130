@@ -82,6 +82,10 @@ img {
     position: relative;
 }
 
+.hero article{
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
