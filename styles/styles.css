@@ -21,6 +21,7 @@ nav {
 nav a {
     color: white;
     padding: 10px;
+    display: inline;
 }
 
 header, main, footer {
@@ -29,8 +30,9 @@ header, main, footer {
 }
 
 main {
+    max-width: 840px;
     /* margin: var(--vgap-standard) 0; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 main img {
@@ -60,6 +62,7 @@ img {
 
 /* Paragraph elements Selector, Declaration for Text */
 p {
+    padding: 0;
     margin: var(--vgap-standard) 1rem;
 }
 
@@ -94,6 +97,7 @@ aside h2 {
 }
 
 footer {
+    margin-top: 1px solid gray;
     border-top: 1px solid gray;
     text-align: center;
 }
