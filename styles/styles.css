@@ -21,7 +21,7 @@ nav {
 nav a {
     color: white;
     padding: 10px;
-    display: inline;
+    display: block;
 }
 
 header, main, footer {
@@ -97,7 +97,7 @@ aside h2 {
 }
 
 footer {
-    margin-top: 1px solid gray;
+    margin-top: 1px;
     border-top: 1px solid gray;
     text-align: center;
 }
