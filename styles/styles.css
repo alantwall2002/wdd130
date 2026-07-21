@@ -73,10 +73,7 @@ ul li {
 aside {
     position: relative;
     width: 810px;
-    margin: var(--vgap-standard) auto;
-    padding: var(--vgap-standard) 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    background-color: var(--light-blue);
+
 }
 
 aside img {
@@ -109,5 +106,11 @@ footer {
     padding: 1rem;
     background-color: var(--light-blue);
     color: var(--byu-blue);
+    /* margin: var(--vgap-standard) auto;
+    padding: var(--vgap-standard) 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: var(--light-blue); */
 }
+
+
 
