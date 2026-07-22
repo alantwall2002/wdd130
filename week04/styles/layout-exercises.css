@@ -24,7 +24,9 @@ div {
 .flex {
     background-color: #aba;
     /* write declarations here */
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid {
