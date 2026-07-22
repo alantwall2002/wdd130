@@ -15,6 +15,9 @@
 header {
     /* background-color: var(--light-brown); */
     color: var(--brown);
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
 }
 
 header, main, footer {
@@ -50,6 +53,17 @@ nav, p, article {
     padding: 8px;
 }
 
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
 article {
     position: absolute;
     bottom: 10px;
@@ -61,10 +75,12 @@ article {
 }
 
 img {
-    border: 1px solid rgb(0 0 0 / 0.2);
+    /*border: 1px solid rgb(0 0 0 / 0.2);*/
+    justify-content: center;
 }
 
 /* Class Styles */
+
 .socialmedia a {
     text-decoration: none;
 }

@@ -32,7 +32,8 @@ div {
 .grid {
     background-color: #abb;
     /* enter declarations here */
-
+    display: grid;
+    place-items: center;
 }
 
 .container2 {
