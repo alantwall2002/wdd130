@@ -85,20 +85,18 @@ aside {
 }
 
 aside img {
-    position: absolute;
-    /* left: 1rem;
-    top: 1rem; */
-    width: 200px;
+    position: relative;
+    width: 90%;
     height: auto;
     margin: 1rem;
-
 }
 
 aside h2 {
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     left: 3rem;
     color: white;
+    z-index: 1
 }
 
 footer {
@@ -114,10 +112,6 @@ footer {
     padding: 1rem;
     background-color: var(--light-blue);
     color: var(--byu-blue);
-    /* margin: var(--vgap-standard) auto;
-    padding: var(--vgap-standard) 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    background-color: var(--light-blue); */
 }
 
 .grid {
