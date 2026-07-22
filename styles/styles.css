@@ -28,13 +28,14 @@ nav a {
     text-decoration: none;
 }
 
-header, main, footer {
+header, .grid, footer {
     width: 840px;
     margin: 0 auto;
 }
 
 main {
     max-width: 840px;
+    grid-column: 2 / 3;
     /* margin: var(--vgap-standard) 0; */
     /* overflow: hidden; */
 }
@@ -52,9 +53,10 @@ main img {
 
 /* Heading 1 Selector, Declaration for Foreground */
 h1 {
+    padding: 4px 0;
     margin: var(--vgap-standard) 1rem;
     color: var(--byu-blue);
-    border-bottom: var(--teal);
+    border-bottom: 2px solid black;
 }
 
 /* Image elements Selector, Declaration for format
@@ -76,9 +78,10 @@ ul li {
 }
 
 aside {
+    width: 20rem;
     position: relative;
-    width: 810px;
-
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -117,5 +120,8 @@ footer {
     background-color: var(--light-blue); */
 }
 
-
+.grid {
+    display: grid;
+    align-items: center;
+}
 
